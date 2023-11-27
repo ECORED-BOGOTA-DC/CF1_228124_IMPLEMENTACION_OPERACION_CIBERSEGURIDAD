@@ -20,7 +20,6 @@
       .py-4.py-md-5(titulo="Amenazas" :icono="require('@/assets/curso/t8-ico1.svg')")
         .row
           .col-md-6.mb-4.mb-md-0
-            .h4 Amenazas
             p Cuando se habla de amenaza informática, se está haciendo referencia al aprovechamiento de la vulnerabilidad que se presenta para atacar o invadir un sistema informático.
           .col-md-6
             figure.slideInLeft
@@ -28,7 +27,6 @@
       .py-4.py-md-5(titulo="Externas e internas" :icono="require('@/assets/curso/t8-ico2.svg')")
         .row
           .col-md-6.mb-4.mb-md-0
-            .h4 Externas e internas
             p Las amenazas informáticas para las organizaciones, generalmente, se adquieren mediante ataques; no obstante, hay otros tipos de amenazas como, por ejemplo, las amenazas internas (robos de información o uso inadecuado de los sistemas).
           .col-md-6
             figure.slideInLeft
@@ -36,7 +34,6 @@
       .py-4.py-md-5(titulo="Vulnerabilidades" :icono="require('@/assets/curso/t8-ico3.svg')")
         .row
           .col-md-6.mb-4.mb-md-0
-            .h4 Vulnerabilidades
             p Se relaciona con la debilidad de un sistema de información que pone en riesgo la seguridad de la misma. Los ciberdelincuentes aprovechan las vulnerabilidades de los sistemas informáticos (por ejemplo, de los sistemas operativos) para poder ingresar en los mismos y ejecutar actividades ilegales, robar información sensible o interrumpir su funcionamiento.
           .col-md-6
             figure.slideInLeft
@@ -44,8 +41,7 @@
       .py-4.py-md-5(titulo="Actualización de sistemas de protección" :icono="require('@/assets/curso/t8-ico4.svg')")
         .row
           .col-md-6.mb-4.mb-md-0
-            .h4 Actualización de sistemas de protección
-            p Hablar de vulnerabilidades, es hablar de las principales causas y razones por las cuales una empresa u organización puede llegar a ser víctima de ataques de orden informático, en contra de sus sistemas. Por ello, se recomienda la actualización permanente a las últimas versiones disponibles de las aplicaciones informáticas, los sistemas de protección y los sistemas operativos. Esto es fundamental ya que tales actualizaciones, contienen múltiples correcciones y ajustes sobre vulnerabilidades ya descubiertas.
+            p Hablar de vulnerabilidades, es hablar de las principales causas y razones por las cuales una empresa u organización puede llegar a ser víctima de ataques de orden informático, en contra de sus sistemas. Por ello, se recomienda la actualización permanente a las últimas versiones disponibles de las aplicaciones informáticas, los sistemas de protección y los sistemas operativos. Esto es fundamental, ya que tales actualizaciones, contienen múltiples correcciones y ajustes sobre vulnerabilidades ya descubiertas.
           .col-md-6
             figure.slideInLeft
               img(src='@/assets/curso/t8-i2_3.jpg', alt='hombre sentado frente a multiples pantalla de computadores')
@@ -81,7 +77,7 @@
     .titulo-segundo.color-secundario
       h2 8.2 Vulnerabilidades del sistema
     .row.justify-content-center
-      .col-8.col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
+      .col-auto.col-8.col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         figure
           img(src='@/assets/curso/t8-i3.svg', alt='imagen decorativa')
       .col-lg-8(data-aos="fade-left")
@@ -112,7 +108,7 @@
       .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
         p.mb-5.text-bold  Cuando se habla de ataque por denegación de servicio distribuido (DDoS), se logra establecer que este, se genera en el momento en que el servidor recibe demasiadas solicitudes o peticiones de acceso.
         .cajon.color-secundario.p-4(data-aos="flip-up")
-          p.mb-0  Esta situación de sobredemanda en solicitudes al servidor es la razón por la cual se presenta un colapso del sistema, provocando que el servidor se abata o que alcance un funcionamiento incorrecto, por ejemplo, acceso lento o rebote de mensajes de errores.
+          p.mb-0  Esta situación de sobre demanda en solicitudes al servidor es la razón por la cual se presenta un colapso del sistema, provocando que el servidor se abata o que alcance un funcionamiento incorrecto, por ejemplo, acceso lento o rebote de mensajes de errores.
       .col-lg-5(data-aos="fade-left")
         figure
           img(src='@/assets/curso/t8-i4.jpg', alt='imagen decorativa')
@@ -127,7 +123,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/t8-i5.jpg')})`}"
           )
           .bloque-texto-g__texto.p-4.shadow-box
-            p.mb-3 No tener contraseñas seguras, que sean difíciles de descifrar, genera vulnerabilidades en los sistemas, ya que facilita el robo, la modificación o eliminación de información, cambiar configuraciones si disponen de los privilegios apropiados o, incluso, apagar equipos.
+            p.mb-3 No tener contraseñas seguras, que sean difíciles de descifrar, genera vulnerabilidades en los sistemas, ya que facilita el robo, la modificación o eliminación de información, cambiar configuraciones si disponen de los privilegios apropiados o, incluso, apagar equipos. 
             p.mb-0.text-bold La creación de contraseñas seguras es una de las claves para incrementar el nivel de ciberseguridad de las empresas.
     Separador
     #t_8_5
@@ -147,7 +143,6 @@
             figure.slideInLeft
               img(src='@/assets/curso/t8-t1.jpg', alt='Texto que describa la imagen')
           .col-md-6.mb-4.mb-md-0
-            .h4 Del error a la amenaza
             p El uso inadecuado de los sistemas y/o de sus funciones, posibilita cometer algunos errores que llegan a convertirse en amenazas para la empresa u organización.
       .py-3.py-md-4(titulo="Error del usuario, vulnerabilidad constante")
         .row 
@@ -155,7 +150,6 @@
             figure.slideInLeft
               img(src='@/assets/curso/t8-t2.jpg', alt='usuario frente al pc aparentemente preocupado')
           .col-md-6.mb-4.mb-md-0
-            .h4 Error del usuario, vulnerabilidad constante
             p El error humano es otra causa de riesgos en ciberseguridad. La persona siempre tiene el riesgo de cometer un error que pueda generar una vulnerabilidad, que genere una amenaza informática.
       .py-3.py-md-4(titulo="Necesidad de formación en ciberseguridad")
         .row 
@@ -163,15 +157,13 @@
             figure.slideInLeft
               img(src='@/assets/curso/t8-t3.jpg', alt='usuario frente al pc aparentemente preocupado')
           .col-md-6.mb-4.mb-md-0
-            .h4 Necesidad de formación en ciberseguridad
             p Otra razón por la cual se generan algunas vulnerabilidades, es por la falta de formación en ciberseguridad, que se evidencia en malas prácticas, en caer en engaños publicitarios maliciosos, en la apertura de correos o información fraudulenta y eventos similares.
-      .py-5.py-md-4(titulo="Phishing y otras amenazas")
+      .py-5.py-md-4(titulo="<i>Phishing</i> y otras amenazas")
         .row 
           .col-md-6
             figure.slideInLeft
               img(src='@/assets/curso/t8-t4.jpg', alt='imagen decorativa')
           .col-md-6.mb-4.mb-md-0
-            .h4 <i>Phishing</i> y otras amenazas
             p Todas las gestiones o acciones equívocas, llegan a ser una amenaza de potenciales ataques; entre los más comunes está el <i>phishing</i> (suplantación de identidad) u otros conexos o relacionados.
     Separador
     #t_8_6
@@ -193,7 +185,6 @@
             figure.slideInLeft
               img(src='@/assets/curso/t8-t5.jpg', alt='imagen decorativa')
           .col-md-6.mb-4.mb-md-0
-            .h4 Ataques innovadores, ciberseguridad dinámica
             p La ciberdelincuencia no para y, por lo general, buscan nuevas formas de atacar, infectar y robar información de las organizaciones; es por esto que la ciberseguridad debe ser una actividad flexible y dinámica que se adapte a las nuevas amenazas.
       .py-3.py-md-4(titulo="Eliminación constante de vulnerabilidades")
         .row 
@@ -201,7 +192,6 @@
             figure.slideInLeft
               img(src='@/assets/curso/t8-t6.jpg', alt='imagen decorativa')
           .col-md-6.mb-4.mb-md-0
-            .h4 Eliminación constante de vulnerabilidades
             p Las vulnerabilidades exponen a las organizaciones frente a las amenazas informáticas. Entonces, es importante enfocarse en eliminar vulnerabilidades, como una de las principales acciones de la ciberseguridad para reducir las amenazas informáticas.
       .py-3.py-md-4(titulo="Desde el exterior")
         .row 
@@ -209,7 +199,6 @@
             figure.slideInLeft
               img(src='@/assets/curso/t8-t7.jpg', alt='imagen decorativa')
           .col-md-6.mb-4.mb-md-0
-            .h4 Desde el exterior
             p Son múltiples los tipos y maneras de vulnerabilidades y/o amenazas informáticas. La mayoría de estas amenazas y/o vulnerabilidades, tienen origen en el exterior, como por ejemplo el <i>malware</i> o los ataques DDoS.
       .py-3.py-md-4(titulo="Desde el interior")
         .row 
@@ -217,7 +206,6 @@
             figure.slideInLeft
               img(src='@/assets/curso/t8-t8.jpg', alt='imagen decorativa')
           .col-md-6.mb-4.mb-md-0
-            .h4 Desde el interior
             p Otras amenazas o vulnerabilidades tienen su origen al interior de los sistemas y suelen ser ocasionadas por los mismos usuarios o colaboradores de las empresas u organizaciones, entre los más comunes están: los robos, los accesos con privilegios incorrectos o, simplemente, errores humanos.
 
 </template>

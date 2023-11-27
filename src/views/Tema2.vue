@@ -2,13 +2,12 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    
     .titulo-principal(data-aos="flip-up")
       .titulo-principal__numero
         span 2
       h1 Normatividad y estándares: ciberseguridad
-    .row.mb-5.slideInUp
-      .col-lg-7
+    .row.justify-content-center.mb-5.slideInUp
+      .col-lg-7.mb-4.mb-lg-0
         p.mb-4.text-bold  La normalización o estandarización, elabora una serie de especificaciones técnicas, normas que son adoptadas de manera voluntaria.
         p.mb-4  La legislación define la norma:
         .bloque-texto-d.color-secundario.p-4
@@ -18,16 +17,13 @@
             i.fas.fa-quote-right
           .bloque-texto-d__autor 
             .h6.mb-0 - Artículo 8 de la Ley 21/1992 de Industria
-      .col-lg-5.slideInLeft
+      .col-auto.col-lg-5.slideInLeft
         figure
           img(src='@/assets/curso/t2-i1.jpg', alt='imagen decorativa')
     p.mb-5(data-aos="fade-right")  Para profundizar y afianzar en aspectos importantes relativos a normatividad y estándares, visite el recurso que se presenta a continuación. Haga un estudio consciente de todos los elementos que allí se muestran.
-    figure.mb-5(data-aos="fade-left")
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/WiBw1gUfa-g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     .row.justify-content-center
       .col-lg-10
-        .tarjeta.color-primario.p-3(data-aos="fade-right")
+        .tarjeta.color-primario.p-3(data-aos="fade-left")
           .row.justify-content-around.align-items-center
             .col-3.col-sm-2.col-lg-1
               img(src="@/assets/curso/t9-ic8.svg")

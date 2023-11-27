@@ -258,7 +258,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/material.pdf',
+        download: 'downloads/228124_CF01_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -391,7 +391,7 @@ export default {
     {
       referencia:
         'Organización Internacional de Normalización (ISO 2013). Seguridad de la información, ciberseguridad y protección de la privacidad (ISO 27001).',
-      link: 'https://www.iso.org/standard/54534.html',
+      link: '',
     },
   ],
   creditos: [

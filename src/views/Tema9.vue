@@ -19,19 +19,19 @@
     .row.justify-content-center
       .col-lg-10(data-aos="fade-right")
         AcordionA(tipo="a" clase-tarjeta="tarjeta color-acento-contenido")
-          .row(titulo="Malware")
+          .row(titulo="<i>Malware</i>")
             .col-md-1.mb-4.mb-md-0
               figure
                 img(src='@/assets/curso/t9-ic1.svg', alt='imagen decorativa')
             .col-md-11
               p.mb-3  Se refiere a todos aquellos archivos que contaminan y pueden comprometer tanto la seguridad, como la utilidad y preservación del equipo.
-          .row(titulo="Phishing o usurpación de identidad")
+          .row(titulo="<i>Phishing</i> o usurpación de identidad")
             .col-md-1.mb-4.mb-md-0
               figure
                 img(src='@/assets/curso/t9-ic2.svg', alt='imagen decorativa')
             .col-md-11
               p.mb-3  Se hacen una serie de actos fraudulentos, ya sea a través de correos o mensajes de entidades reconocidas para generar confianza.
-          .row(titulo="Criptomining")
+          .row(titulo="<i>Criptomining</i>")
             .col-md-1.mb-4.mb-md-0
               figure
                 img(src='@/assets/curso/t9-ic3.svg', alt='imagen decorativa')
@@ -43,13 +43,13 @@
                 img(src='@/assets/curso/t9-ic4.svg', alt='imagen decorativa')
             .col-md-11
               p.mb-3 El término de DDoS se debe a su nombre en inglés (Distributed Denial of Service) la cual tiene el objetivo de ejecutar un ataque de denegación de servicio distribuido.
-          .row(titulo="Ransomware")
+          .row(titulo="<i>Ransomware</i>")
             .col-md-1.mb-4.mb-md-0
               figure
                 img(src='@/assets/curso/t9-ic5.svg', alt='imagen decorativa')
             .col-md-11
               p.mb-3 Consiste en un sistema malicioso el cual restringe o prohíbe el acceso a los datos confidenciales.
-          .row(titulo="Botnets")
+          .row(titulo="<i>Botnets</i>")
             .col-md-1.mb-4.mb-md-0
               figure
                 img(src='@/assets/curso/t9-ic6.svg', alt='imagen decorativa')
@@ -89,7 +89,7 @@
             figure.slideInUp
               img(src='@/assets/curso/t9-t2.png', alt='icono decorativo')
           .col-lg-8
-            p.mb-3.slideInLeft Se incrementan las capacidades ofensivas siendo ésta, la principal amenaza de este nivel. Además de la desfiguración de páginas <i>web</i> y la manipulación de información. 
+            p.mb-3.slideInLeft Se incrementan las capacidades ofensivas, siendo ésta, la principal amenaza de este nivel. Además de la desfiguración de páginas <i>web</i> y la manipulación de información. 
       .tarjeta.color-acento-contenido.p-5(titulo="Nivel alto")
         .row.justify-content-center
           .col-9.col-lg-4.mb-4.mb-lg-0
