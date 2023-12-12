@@ -89,7 +89,7 @@
             figure.slideInUp
               img(src='@/assets/curso/t9-t2.png', alt='icono decorativo')
           .col-lg-8
-            p.mb-3.slideInLeft Se incrementan las capacidades ofensivas, siendo ésta, la principal amenaza de este nivel. Además de la desfiguración de páginas <i>web</i> y la manipulación de información. 
+            p.mb-3.slideInLeft Se incrementan las capacidades ofensivas, siendo estas, la principal amenaza de este nivel. Además de la desfiguración de páginas <i>web</i> y la manipulación de información. 
       .tarjeta.color-acento-contenido.p-5(titulo="Nivel alto")
         .row.justify-content-center
           .col-9.col-lg-4.mb-4.mb-lg-0
