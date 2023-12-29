@@ -164,7 +164,7 @@
             figure.slideInLeft
               img(src='@/assets/curso/t8-t4.jpg', alt='imagen decorativa')
           .col-md-6.mb-4.mb-md-0
-            p Todas las gestiones o acciones equívocas, llegan a ser una amenaza de potenciales ataques; entre los más comunes está el <i>phishing</i> (suplantación de identidad) u otros conexos o relacionados.
+            p Todas las gestiones o acciones equívocas, llegan a ser una amenaza de potenciales ataques; entre los más comunes está el <i>Phishing</i> (suplantación de identidad) u otros conexos o relacionados.
     Separador
     #t_8_6
     .titulo-segundo.color-secundario
@@ -176,7 +176,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/t8-i6.jpg')})`}"
           )
           .bloque-texto-g__texto.p-4.shadow-box
-            p.mb-3 Se conocen otras amenazas informáticas que afectan a las empresas como los ataques por inyección <b>SQL</b>, que afectan a servidores de bases de datos empresariales, red de equipos <i>zombies</i>, ataques MITM <i>(man in the middle)</i>, etc.
+            p.mb-3 Se conocen otras amenazas informáticas que afectan a las empresas como los ataques por inyección <b>SQL</b>, que afectan a servidores de bases de datos empresariales, red de equipos <i>zombies</i>, ataques MITM <i>(Man In The Middle)</i>, etc.
     p.mb-5(data-aos="fade-right")  Estas son algunas particularidades que usted debe conocer y tener en cuenta, en lo referente a amenazas informáticas diversas:
     TabsC.color-primario(data-aos="fade-right")
       .py-3.py-md-4(titulo="Ataques innovadores, ciberseguridad dinámica")

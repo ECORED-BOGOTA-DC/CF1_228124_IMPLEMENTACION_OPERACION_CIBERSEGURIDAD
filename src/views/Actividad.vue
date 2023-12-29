@@ -9,7 +9,7 @@
           figure
             img(src="@/assets/template/completar.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
-        .titulo-segundo
+        .titulo-segundo.color-acento-botones
           h2 Importancia de la seguridad digital
         p.mb-4 Identificar los riesgos que pueden presentarse en la información digital de una organización y con esto implementar el plan de tratamiento o acciones que mitiguen o eliminen cualquier riesgo de ciberataques.
         .tarjeta.actividad.p-3

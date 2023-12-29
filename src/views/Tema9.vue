@@ -19,47 +19,47 @@
     .row.justify-content-center
       .col-lg-10(data-aos="fade-right")
         AcordionA(tipo="a" clase-tarjeta="tarjeta color-acento-contenido")
-          .row(titulo="<i>Malware</i>")
-            .col-md-1.mb-4.mb-md-0
+          .row.justify-content-center.align-items-center(titulo="<i>Malware</i>")
+            .col-7.col-md-4.col-lg-1.mb-4.mb-md-0
               figure
                 img(src='@/assets/curso/t9-ic1.svg', alt='imagen decorativa')
-            .col-md-11
+            .col-md-8.col-lg-11
               p.mb-3  Se refiere a todos aquellos archivos que contaminan y pueden comprometer tanto la seguridad, como la utilidad y preservación del equipo.
-          .row(titulo="<i>Phishing</i> o usurpación de identidad")
-            .col-md-1.mb-4.mb-md-0
+          .row.justify-content-center.align-items-center(titulo="<i>Phishing</i> o usurpación de identidad")
+            .col-7.col-md-4.col-lg-1.mb-4.mb-md-0
               figure
                 img(src='@/assets/curso/t9-ic2.svg', alt='imagen decorativa')
-            .col-md-11
+            .col-md-8.col-lg-11
               p.mb-3  Se hacen una serie de actos fraudulentos, ya sea a través de correos o mensajes de entidades reconocidas para generar confianza.
-          .row(titulo="<i>Criptomining</i>")
-            .col-md-1.mb-4.mb-md-0
+          .row.justify-content-center.align-items-center(titulo="<i>Criptomining</i>")
+            .col-7.col-md-4.col-lg-1.mb-4.mb-md-0
               figure
                 img(src='@/assets/curso/t9-ic3.svg', alt='imagen decorativa')
-            .col-md-11
+            .col-md-8.col-lg-11
               p.mb-3  Es un delito en el cual se dirigen ataques a las cuentas, sea un usuario o empresa.
-          .row(titulo="Ataques DDoS")
-            .col-md-1.mb-4.mb-md-0
+          .row.justify-content-center.align-items-center(titulo="Ataques DDoS")
+            .col-7.col-md-4.col-lg-1.mb-4.mb-md-0
               figure
                 img(src='@/assets/curso/t9-ic4.svg', alt='imagen decorativa')
-            .col-md-11
+            .col-md-8.col-lg-11
               p.mb-3 El término de DDoS se debe a su nombre en inglés (Distributed Denial of Service) la cual tiene el objetivo de ejecutar un ataque de denegación de servicio distribuido.
-          .row(titulo="<i>Ransomware</i>")
-            .col-md-1.mb-4.mb-md-0
+          .row.justify-content-center.align-items-center(titulo="<i>Ransomware</i>")
+            .col-7.col-md-4.col-lg-1.mb-4.mb-md-0
               figure
                 img(src='@/assets/curso/t9-ic5.svg', alt='imagen decorativa')
-            .col-md-11
+            .col-md-8.col-lg-11
               p.mb-3 Consiste en un sistema malicioso el cual restringe o prohíbe el acceso a los datos confidenciales.
-          .row(titulo="<i>Botnets</i>")
-            .col-md-1.mb-4.mb-md-0
+          .row.justify-content-center.align-items-center(titulo="<i>Botnets</i>")
+            .col-7.col-md-4.col-lg-1.mb-4.mb-md-0
               figure
                 img(src='@/assets/curso/t9-ic6.svg', alt='imagen decorativa')
-            .col-md-11
+            .col-md-8.col-lg-11
               p.mb-3 Se trata de una amenaza para los ordenadores actuando a través de troyanos que se filtran en el mismo para así enviar información como <i>spam</i>.
-          .row(titulo="Inyección SQL")
-            .col-md-1.mb-4.mb-md-0
+          .row.justify-content-center.align-items-center(titulo="Inyección SQL")
+            .col-7.col-md-4.col-lg-1.mb-4.mb-md-0
               figure
                 img(src='@/assets/curso/t9-ic7.svg', alt='imagen decorativa')
-            .col-md-11
+            .col-md-8.col-lg-11
               p.mb-3 Se aprovecha la vulnerabilidad de la validación de acceso a un sitio o aplicación, con la finalidad de infiltrarse en su base de datos para obtener información de los usuarios.
     Separador
     #t_9_1
@@ -154,7 +154,9 @@
                     .anexo__icono
                       img(src="@/assets/template/icono-link.svg")
                     .anexo__texto
-                      p <b>Enlace <i>web</i>.</b> https://www.iso.org/obp/ui#iso:std:iso:31000:ed-2:v1:es
+                      p <b>Enlace <i>web</i>.</b> https://www.iso.org/obp/ ui#iso:std:iso:31000:ed-2:v1:es
+
+
 
 </template>
 

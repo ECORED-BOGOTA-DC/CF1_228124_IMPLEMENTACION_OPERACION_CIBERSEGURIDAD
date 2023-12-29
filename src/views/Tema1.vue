@@ -162,8 +162,67 @@
     .row.justify-content-center
       .col-lg-10(data-aos="fade-left")
         figcaption.customCaption.mb-3 <b>Tabla 1.</b> Modelo de referencia de Interconexión de Sistemas Abiertos
-        figure(data-aos="fade-up")
-          img(src='@/assets/curso/t1-table1.svg', alt='icono decorativo')
+
+        .tabla-a.mb-2
+          table  
+            thead.tabla-b__header 
+              tr
+                th.morado-2(style="width:15%")
+                  h5.text-white.mb-0 N° de capa
+                th.morado-2(style="width:25%")
+                  h5.text-white.mb-0 Nombre de capa
+                th.morado-2
+                  h5.text-white.mb-0 Descripción
+            tbody
+              tr.text-center
+                td 
+                  h4.mb-0 7
+                td 
+                  h4.mb-0 Aplicación
+                td Hace referencia a cada uno de los servicios y/o las aplicaciones de comunicación estándar, que pueden ser manipulados o utilizados por cualquier usuario.
+
+              tr.text-center
+                td
+                  h4.mb-0 6
+                td
+                  h4.mb-0 Presentación
+                td La presentación corrobora que la información sea transferida hasta el sistema receptor de manera comprensible para el sistema.
+
+              tr.text-center
+                td
+                  h4.mb-0 5
+                td
+                  h4.mb-0 Sesión
+                td Dirige las conexiones y terminaciones entre los sistemas que operan.
+
+              tr.text-center
+                td
+                  h4.mb-0 4
+                td
+                  h4.mb-0 Transporte
+                td Manda la transferencia de datos. Así mismo, asegura que los datos recibidos sean idénticos a los transmitidos.
+
+              tr.text-center
+                td
+                  h4.mb-0 3
+                td
+                  h4.mb-0 Red
+                td Dispone las direcciones de datos y la transferencia entre redes.
+
+              tr.text-center
+                td
+                  h4.mb-0 2
+                td
+                  h4.mb-0 Vínculo de datos
+                td Dirige la transferencia de datos en el medio de la red.
+
+              tr.text-center
+                td
+                  h4.mb-0 1
+                td
+                  h4.mb-0 Física
+                td Da conocer las características del <i>hardware</i> de red.
+
         figcaption Nota: Tomada de la Guía de administración del sistema: servicios IP (2010).
     Separador
     #t_1_5
@@ -173,7 +232,7 @@
       .col-lg-7(data-aos="fade-right")
         p.mb-4  TCP/IP son las siglas de las siguientes palabras: <b><i>Transmission Control Protocol/Internet Protocol (Protocolo de control de transmisión/Protocolo de Internet).</i></b>
         .cajon.color-secundario.p-4.mb-4
-          p.mb-0  <b>Los protocolos TCP/IP</b> son un conjunto de reglas para formatos de mensajes y procedimientos, que permiten que el hardware y los softwares de aplicación, intercambien información.
+          p.mb-0  <b>Los protocolos TCP/IP</b> son un conjunto de reglas para formatos de mensajes y procedimientos, que permiten que el <i>hardware</i> y los <i>software</i> de aplicación, intercambien información.
         p.mb-3  Despliegue el recurso que se muestra a continuación para tener un primer acercamiento conceptual a los protocolos TCP/IP y descubra cómo estos se disponen en capas.
       .col-lg-5(data-aos="fade-left")
         figure
@@ -235,9 +294,9 @@
       h2 1.6 Protocolos IPv4 e IPv6
     .row.justify-content-center.mb-5
       .col-lg-7(data-aos="fade-right")
-        p.mb-3  El <i>Internet Protocol Version 4</i> (IPv4), conocido como el sistema de identificación que usa Internet para enviar información entre los dispositivos, maneja direcciones de 32 bits con hasta 12 caracteres, en cuatro bloques de 3 caracteres, cada bloque. El DNS los convierte en nombres de dominio como 1and1.es. ajustando todos los dígitos.
+        p.mb-3  El <i>Internet Protocol Version 4</i> (IPv4), conocido como el sistema de identificación que usa Internet para enviar información entre los dispositivos, maneja direcciones de 32 <i>bits</i> con hasta 12 caracteres, en cuatro bloques de 3 caracteres, cada bloque. El DNS los convierte en nombres de dominio como 1and1.es. ajustando todos los dígitos.
         .cajon.color-secundario.p-4.mb-5
-          p.mb-0  Por otra parte, está el <i>Internet Protocol Version 6</i> (IPv6); su espacio de direcciones es de 128-bits. Este protocolo aumenta el tamaño de la dirección IP de 32 bits a 128 bits para así resistir más niveles en la jerarquía de direccionamiento y un número mayor de nodos direccionables. El diseño del protocolo suma muchos beneficios en seguridad: una mayor capacidad de transmisión, manejo de calidad de servicio y mejora la facilidad de administración.
+          p.mb-0  Por otra parte, está el <i>Internet Protocol Version 6</i> (IPv6); su espacio de direcciones es de 128-<i>bits</i>. Este protocolo aumenta el tamaño de la dirección IP de 32 <i>bits</i> a 128 <i>bits</i> para así resistir más niveles en la jerarquía de direccionamiento y un número mayor de nodos direccionables. El diseño del protocolo suma muchos beneficios en seguridad: una mayor capacidad de transmisión, manejo de calidad de servicio y mejora la facilidad de administración.
         p.mb-3  Los siguientes puntos son los beneficios que representa un proceso de transición de IPv4 al IPv6, que es importante tenerlos presentes, al momento de adoptar el nuevo protocolo:
       .col-auto.col-lg-5(data-aos="fade-left")
         figure(data-aos="fade-up")

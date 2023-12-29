@@ -67,7 +67,7 @@
             .row.m-1.justify-content-center
               .col-lg-6.mb-4.mb-lg-0
                 .h4 Alcance
-                p.mb-3 La adopción de normatividad y estándares de gestión de riesgos de seguridad de la información tiene como alcance hacer el análisis de riesgos de los activos de información de las organizaciones determinando el impacto en los activos de información.
+                p.mb-3 La adopción de normatividad y estándares de gestión de riesgos de seguridad de la información tiene como alcance hacer el análisis de riesgos de los activos de información de las organizaciones, determinando el impacto en los activos de información.
               .col-auto.col-lg-6
                 figure
                   img(src='@/assets/curso/t3-s4.png', alt='imagen decorativa')
